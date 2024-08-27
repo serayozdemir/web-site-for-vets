@@ -1,66 +1,55 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+the project does not work with current laravel versions, I wrote it when there was a laravel 10+ version, so it does not adapt to new features.
+to run the project, it is enough to write "php artisan serve" in the terminal.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+this is a promotional site for veterinarians. the main page is like this. (I didn't deal much with the css part because I focused on the backend part).
+![1](https://github.com/user-attachments/assets/66e8944e-ef88-4a07-87ee-8962b463f330)
 
-## About Laravel
+there is a section for promoting the clinic under who we are. (the information on the page does not belong to me, I got it from a veterinary site)
+![2](https://github.com/user-attachments/assets/9de1c1fe-069b-48dc-a20d-616ccce200aa)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+there is a drop-down section for the services of the clinic. I have also added pages describing the services provided in detail.( I wrote the services section just for example)
+![3](https://github.com/user-attachments/assets/127d166e-dc40-4214-959d-9ae805e7956e)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+I have added a page for communication with the clinic. in addition to the number of the clinic, the whatsapp number of the clinic can be accessed by clicking the link at the bottom. i have also added a google map link of the clinic for transportation. 
+![4](https://github.com/user-attachments/assets/737699a0-007b-40ba-a0aa-6222568580ac)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+the login section supports login with different social media tools.
+![5](https://github.com/user-attachments/assets/edfbf257-6c64-45fa-a7c9-7f9a88d487de)
 
-## Learning Laravel
+there is a transition from login to register tab and from register tab to login tab.
+![6](https://github.com/user-attachments/assets/e15c9bb2-96d1-4f60-9ec0-a5ea68c24ccd)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+I added an algorithm that checks the password creation rules in the registration section.
+![7](https://github.com/user-attachments/assets/f25c1b79-60a4-483d-bf9e-b7178c01f833)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+similarly, I added a feature to check that the passwords are the same.
+![8](https://github.com/user-attachments/assets/13e08521-4052-469a-bc01-22ac23a891bb)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+only logged in users can access the add products section, but the added products can be seen without logging in. 
+![9](https://github.com/user-attachments/assets/e08dcbe7-2607-4341-8861-f09fa33038f6)
+![14](https://github.com/user-attachments/assets/5c21c739-5b20-4a36-b505-52e681b0d895)
+product details can also be accessed via the blue button on the right side.(sorry for the photo, I wanted to put my cat)
+![15](https://github.com/user-attachments/assets/a9f38676-7790-416d-b361-14f67e364829)
 
-## Laravel Sponsors
+I am attaching an example to show how I add products.
+![10](https://github.com/user-attachments/assets/3774ca66-46e6-4025-811a-17f2bbc710d4)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+after the product is added, it gives confirmation that the product has been added. (green colored part) 
+![11](https://github.com/user-attachments/assets/58b2dec3-2113-4f04-9ecb-7316cc317240)
 
-### Premium Partners
+after registering on the site, a code is sent to confirm the registered e-mail and you cannot switch to the add product tab without confirming this code.
+![12](https://github.com/user-attachments/assets/52555886-bfaf-4572-8e4c-2184077468c2)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+I have attached a photo to show that the email came through mailtrap because I logged in with a non-real email.
+![13](https://github.com/user-attachments/assets/a77024af-56ba-4873-9efa-8b99cc067331)
 
-## Contributing
+I added profile editing, password change and 2FA pages for logged in users only, respectively. I used Google Authenticator in the 2FA section.
+![16](https://github.com/user-attachments/assets/6729edd2-bd6b-4e44-8b03-175abdb41a64)
+![17](https://github.com/user-attachments/assets/7cc7be6d-c3db-4bd5-889a-b035bdd437bc)
+![18](https://github.com/user-attachments/assets/13a668d0-7e2c-4b24-a410-21be11e2a93e)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Thanks for reading! 
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
